@@ -47,7 +47,7 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -108,6 +108,30 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.nav {
+  padding: 20px 0;
+}
+.nav li {
+  display: inline;
+  list-style: none;
+}
+.nav li a {
+  line-height: 40px;
+  text-decoration: none;
+  color: #6c63ff;
+}
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: #6c63ff !important;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
 }
 .img-fluid {
   max-width: 100%;
