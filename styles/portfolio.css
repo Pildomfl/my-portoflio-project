@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background: #faeee7;
 }
 h1,
 h2,
@@ -7,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #33272a;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -28,7 +29,7 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .hero {
-  background: #f9f7fe;
+  background: #faeee7;
   text-align: center;
   padding: 80px 20px;
 }
@@ -36,7 +37,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #33272a;
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
@@ -66,23 +67,25 @@ p {
 }
 .content p {
   font-size: 14px;
+  color: #94a1b2;
 }
 
 .btn-branding {
-  background: #6c63ff;
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
+  background: #ff8ba7;
+  border-radius: 8px;
+  color: #33272a;
+  font-size: 16px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 12px 25px;
 }
 .btn-branding-outline {
-  color: #6c63ff;
-  border: 1px solid #6c63ff;
+  background: #ff8ba7;
+  color: #33272a;
+  border: 1px solid #33272a;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 12px 25px;
 }
 .project-description {
   padding: 120px 60px;
@@ -119,13 +122,13 @@ p {
 .nav li a {
   line-height: 40px;
   text-decoration: none;
-  color: #6c63ff;
+  color: #ff8ba7;
 }
 .logo {
   max-height: 40px;
 }
 .active {
-  color: #6c63ff !important;
+  color: #ff8ba7 !important;
 }
 .nav-item {
   padding: 0 10px;
@@ -134,10 +137,19 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  border-radius: 18px;
-  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 4px solid #33272a;
+}
+.info-tools {
+  border: 2px solid #ff8ba7;
+  border-radius: 12px;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  padding: 12px 20px;
+  color: #594a4e;
 }
 row {
   height: 100vh;
@@ -154,7 +166,7 @@ footer {
   margin: 60px 0;
 }
 footer .contact-box {
-  background: #f9f7fe;
+  background: #fffffe;
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -163,17 +175,17 @@ footer .contact-box p {
 }
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: #94a1b2;
   font-size: 24px;
   text-align: center;
 }
 footer .email-link:hover {
-  color: #6c63ff;
+  color: #7f5af0;
 }
 footer .social-links a {
   margin: 0 20px;
-  color: #6c63ff;
-  background: #f9f7fe;
+  color: #594a4e;
+  background: #ffc6c7;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -181,5 +193,5 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: white;
-  background: #6c63ff;
+  background: #ff8ba7;
 }
