@@ -222,3 +222,15 @@ footer .social-links a:hover {
   color: #1a1818;
   background: #ffc6c7;
 }
+.contact-page a {
+  margin: 0 8px;
+  color: #1a1818;
+  padding: 5px 12px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+.contact-page a:hover {
+  color: #1a1818;
+  background: #ffc6c7;
+}
