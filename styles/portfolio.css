@@ -34,7 +34,9 @@ p {
   text-align: center;
   padding: 80px 20px;
 }
-
+.hero h1 {
+  font-family: "Italiana", sans-serif;
+}
 .hero h2 {
   font-family: "Montaga", serif;
   font-weight: 400;
@@ -208,7 +210,6 @@ row {
 
 footer .email-link {
   text-decoration: none;
-  color: #1a1818;
   font-size: 20px;
   text-align: center;
 }
@@ -238,7 +239,8 @@ footer .social-links a:hover {
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
   border-radius: 12px;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid #594a4e;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
 }
 
