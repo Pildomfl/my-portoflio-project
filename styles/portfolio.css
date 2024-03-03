@@ -127,6 +127,9 @@ p {
     justify-content: center;
     text-align: center;
   }
+  .img-fluid {
+    display: none;
+  }
 }
 .nav {
   padding: 20px 0;
@@ -197,34 +200,14 @@ footer {
   font-size: 14px;
   text-align: center;
 }
-footer .contact-box {
-  background: #ece7e1;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 1px solid #1a1818;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-footer .contact-box p {
-  margin: 0;
-}
+
 footer .email-link {
   text-decoration: none;
   color: #1a1818;
   font-size: 20px;
   text-align: center;
 }
-footer .email-link:hover {
-  color: #33272a;
-}
-footer .social-links a {
-  margin: 0 20px;
-  color: #1a1818;
-  padding: 10px 14px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
+
 footer .social-links a:hover {
   color: #1a1818;
   background: #ffc6c7;
@@ -308,5 +291,5 @@ footer .social-links a:hover {
 }
 
 .card-5 {
-  background: radial-gradient(#f3aadf, #ece7e1);
+  background: radial-gradient(#ece7e1, #ccc6b7);
 }
